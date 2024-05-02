@@ -29,7 +29,45 @@
 
 input {
   width: 100%;
-  padding: 4px;
+  padding: 10px;
   border: 1px solid #aaa;
   border-radius: 2px;
+ 
+}
+.text-area-input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+.close-button-div{
+  display: flex;
+  justify-content: end;
+}
+
+.close-button{
+  display: flex;
+  width: 30px;
+  justify-content: center;
+}
+
+
+
+.exit-button:hover{
+  color: red;
+  background-color: #fff;
+}
+
+.row-file{
+  display: flex;
+}
+
+.sent-button-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.send-button{
+  height: 40px;
 }
